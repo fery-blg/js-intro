@@ -1,2 +1,2 @@
 # js-intro
-java script discription 
+javascript discription 
