@@ -27,3 +27,14 @@ var myobj2 = { direct: true };
 console.log(myobj1, "before eexecution");
 add(myobj1, "test", myobj2);
 console.log(myobj1, "after execution");
+function addFullName(obj){
+    if ((obj.fn)&&(obj.ln)){
+        obj["full"]=obj["fn"]+" "+obj["ln"]
+
+    }
+}
+var myobj = { fn : "fery" ,   ln : "blg"}
+console.log(myobj, "before eexecution");
+addFullName(myobj,"test");
+console.log(myobj, "after execution");
+
